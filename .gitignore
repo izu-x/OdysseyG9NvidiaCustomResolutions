@@ -1,0 +1,13 @@
+# Local backups of registry exports — never commit personal NV_Modes values
+*.reg
+NV_Modes_backup*
+backups/
+
+# User's actual custom resolutions list (commit only the .example template)
+custom-resolutions.txt
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
